@@ -67,7 +67,7 @@ export default function Home() {
               MedMoods
             </h1>
             <p className="mt-6 text-lg text-muted">
-              Track your medication experiences. Share what matters. Stay in control.
+                          Real Experiences. Real People.
             </p>
             <div className="mt-10">
               <Link
