@@ -3,36 +3,35 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 function PillIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="3" y="9" width="18" height="8" rx="4" transform="rotate(-20 12 13)" stroke="#2D7A77" strokeWidth="1.8" />
-      <line x1="10.5" y1="7.5" x2="13.5" y2="16.5" stroke="#2D7A77" strokeWidth="1.8" />
-    </svg>
-  );
+    return (
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="9" width="20" height="8" rx="4" stroke="#2D7A77" strokeWidth="1.8" />
+                <line x1="12" y1="9" x2="12" y2="17" stroke="#2D7A77" strokeWidth="1.8" />
+          </svg>
+        );
 }
 
 function CommunityIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="9" cy="8" r="3" stroke="#2D7A77" strokeWidth="1.8" />
-      <circle cx="17" cy="10" r="2.4" stroke="#2D7A77" strokeWidth="1.8" />
-      <path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5" stroke="#2D7A77" strokeWidth="1.8" />
-      <path d="M14.5 19c0-2.2 1.6-4 4-4.2" stroke="#2D7A77" strokeWidth="1.8" />
-    </svg>
-  );
+    return (
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="3" width="13" height="8" rx="4" stroke="#2D7A77" strokeWidth="1.6" />
+                <path d="M5 11l-1 3 4-2.3" stroke="#2D7A77" strokeWidth="1.6" strokeLinejoin="round" />
+                <rect x="8" y="11" width="14" height="9" rx="4.5" stroke="#2D7A77" strokeWidth="1.6" />
+                <path d="M12 20l-0.7 2.5 4-2.2" stroke="#2D7A77" strokeWidth="1.6" strokeLinejoin="round" />
+          </svg>
+        );
 }
 
 function CareIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M12 20s-7-4.4-7-9.6C5 7 7 5 9.6 5c1 0 2 .5 2.4 1.4C12.4 5.5 13.4 5 14.4 5 17 5 19 7 19 10.4 19 15.6 12 20 12 20z"
-        stroke="#2D7A77"
-        strokeWidth="1.8"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
+    return (
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="7" r="3" stroke="#2D7A77" strokeWidth="1.8" />
+                <path d="M2 18c0-3.2 1.8-5.5 4-5.5s4 2.3 4 5.5" stroke="#2D7A77" strokeWidth="1.8" strokeLinecap="round" />
+                <circle cx="18" cy="7" r="3" stroke="#2D7A77" strokeWidth="1.8" />
+                <path d="M14 18c0-3.2 1.8-5.5 4-5.5s4 2.3 4 5.5" stroke="#2D7A77" strokeWidth="1.8" strokeLinecap="round" />
+                <line x1="9.5" y1="12" x2="14.5" y2="12" stroke="#2D7A77" strokeWidth="1.6" strokeDasharray="2 2" strokeLinecap="round" />
+          </svg>
+        );
 }
 
 const features = [
