@@ -26,6 +26,9 @@ export default function Footer() {
           <Link href="/faq" className="text-muted hover:text-primary transition-colors">
             FAQ & Help
           </Link>
+          <Link href="/contact" className="text-muted hover:text-primary transition-colors">
+            Contact
+          </Link>
         </div>
       </div>
     </footer>
