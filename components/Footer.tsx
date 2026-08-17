@@ -8,6 +8,9 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} MedMoods. All rights reserved.
         </p>
         <div className="flex gap-6 text-sm">
+          <Link href="/features" className="text-muted hover:text-primary transition-colors">
+            Features
+          </Link>
           <Link href="/about" className="text-muted hover:text-primary transition-colors">
             About
           </Link>
