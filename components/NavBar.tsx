@@ -11,8 +11,8 @@ export default function NavBar() {
         </Link>
         <nav className="flex gap-6 text-sm text-muted">
           <Link href="/features" className="hover:text-primary transition-colors">
-              Features
-            </Link>
+            Features
+          </Link>
             <Link href="/about" className="hover:text-primary transition-colors">
             About
           </Link>
