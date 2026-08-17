@@ -10,6 +10,9 @@ export default function NavBar() {
           <span className="font-semibold text-ink text-lg">MedMoods</span>
         </Link>
         <nav className="flex gap-6 text-sm text-muted">
+          <Link href="/about" className="hover:text-primary transition-colors">
+            About
+          </Link>
           <Link href="/terms" className="hover:text-primary transition-colors">
             Terms
           </Link>
