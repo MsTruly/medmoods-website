@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t border-primary/10 bg-white">
-      <div className="mx-auto max-w-6xl px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="mx-auto max-w-6xl px-4 py-10 flex flex-col items-center justify-between gap-6 text-center sm:px-6 md:flex-row md:gap-4 md:text-left">
         <p className="text-sm text-muted">
           &copy; {new Date().getFullYear()} MedMoods. All rights reserved.
         </p>
-        <div className="flex gap-6 text-sm">
+                <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm md:flex-nowrap md:justify-end">
           <Link href="/features" className="text-muted hover:text-primary transition-colors">
             Features
           </Link>
