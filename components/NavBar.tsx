@@ -14,6 +14,7 @@ const desktopLinks = [
 const mobileLinks = [
   ...desktopLinks,
   { href: "/community-guidelines", label: "Community Guidelines" },
+    { href: "/download", label: "Download" },
 ];
 
 export default function NavBar() {
@@ -44,7 +45,7 @@ export default function NavBar() {
           <span className="font-semibold text-ink text-lg">MedMoods</span>
         </Link>
 
-        <nav className="hidden md:flex gap-6 text-sm text-muted">
+        <nav className="hidden md:flex items-center gap-6 text-sm text-muted">
           {desktopLinks.map((link) => (
             <Link
               key={link.href}
@@ -54,6 +55,12 @@ export default function NavBar() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/download"
+              className="rounded-full bg-primary px-4 py-1.5 font-medium text-white transition-colors hover:bg-primary-dark"
+              >
+                Download
+                </Link>
         </nav>
 
         <button
