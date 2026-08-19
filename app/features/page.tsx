@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
@@ -314,6 +315,54 @@ export default function FeaturesPage() {
               you&apos;re tracking medications, sharing experiences, or
               connecting with a community that understands.
             </p>
+          </div>
+        </section>
+
+        {/* Screenshot Showcase */}
+        <section className="px-6 pb-20">
+          <div className="mx-auto max-w-3xl">
+            <div className="grid grid-cols-1 justify-items-center gap-8 sm:grid-cols-2">
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/feed.png"
+                  alt="Community Feed"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Community Feed</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/compose.png"
+                  alt="Share Experiences"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Share Experiences</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/journey.png"
+                  alt="Journey Insights"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Journey Insights</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/weekly-summary.png"
+                  alt="Weekly Summary"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Weekly Summary</p>
+              </div>
+            </div>
           </div>
         </section>
 
