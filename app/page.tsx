@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
@@ -75,6 +76,46 @@ export default function Home() {
               >
                 Download the App
               </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="px-6 pb-24">
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-3xl font-bold text-ink tracking-tight">
+              See MedMoods in Action
+            </h2>
+            <div className="mt-10 flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-center">
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/feed.png"
+                  alt="Community Feed"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Community Feed</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/compose.png"
+                  alt="Share Your Experience"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Share Your Experience</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/profile.png"
+                  alt="Your Profile"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Your Profile</p>
+              </div>
             </div>
           </div>
         </section>
