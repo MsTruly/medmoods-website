@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
@@ -110,6 +111,54 @@ export default function DownloadPage() {
             <p className="mt-6 text-sm text-muted">
               Want to try MedMoods now? The web version is available at no cost.
             </p>
+          </div>
+        </section>
+
+        {/* Screenshot Showcase */}
+        <section className="px-6 pb-16">
+          <div className="mx-auto max-w-6xl overflow-x-auto">
+            <div className="flex flex-row justify-center gap-6 md:flex-wrap">
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/welcome.png"
+                  alt="Welcome"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Welcome</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/interest.png"
+                  alt="Personalize Your Feed"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Personalize Your Feed</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/feed.png"
+                  alt="Community Feed"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Community Feed</p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <Image
+                  src="/compose.png"
+                  alt="Share Experiences"
+                  width={250}
+                  height={500}
+                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
+                />
+                <p className="text-sm text-muted">Share Experiences</p>
+              </div>
+            </div>
           </div>
         </section>
 
