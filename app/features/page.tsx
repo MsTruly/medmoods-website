@@ -293,6 +293,13 @@ const premiumFeatures: Feature[] = [
   },
 ];
 
+const featureScreenshots = [
+  { src: "/feed.png", alt: "Community Feed" },
+  { src: "/compose.png", alt: "Share Experiences" },
+  { src: "/journey.png", alt: "Journey Insights" },
+  { src: "/weekly-summary.png", alt: "Weekly Summary" },
+];
+
 const comingSoon = [
   "Sign in with Apple",
   "Push notifications for new posts about your medications",
@@ -319,49 +326,25 @@ export default function FeaturesPage() {
         </section>
 
         {/* Screenshot Showcase */}
-        <section className="px-6 pb-20">
-          <div className="mx-auto max-w-3xl">
-            <div className="grid grid-cols-1 justify-items-center gap-8 sm:grid-cols-2">
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/feed.png"
-                  alt="Community Feed"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Community Feed</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/compose.png"
-                  alt="Share Experiences"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Share Experiences</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/journey.png"
-                  alt="Journey Insights"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Journey Insights</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/weekly-summary.png"
-                  alt="Weekly Summary"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Weekly Summary</p>
-              </div>
+        <section className="pb-20">
+          <div className="mx-auto max-w-5xl px-6">
+            {/* Mobile: horizontal scroll. Desktop: wrapping grid. */}
+            <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:grid sm:snap-none sm:grid-cols-3 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+              {featureScreenshots.map(({ src, alt }) => (
+                <div
+                  key={src}
+                  className="flex shrink-0 snap-center flex-col items-center gap-2 sm:shrink"
+                >
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={250}
+                    height={400}
+                    className="h-[400px] w-auto rounded-2xl border border-gray-200 object-cover shadow-lg"
+                  />
+                  <p className="text-sm text-muted">{alt}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>

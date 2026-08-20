@@ -63,6 +63,19 @@ const features = [
   },
 ];
 
+const screenshots = [
+  { src: "/welcome.png", alt: "Welcome" },
+  { src: "/interest.png", alt: "Personalize Your Feed" },
+  { src: "/goals.png", alt: "Your Goals" },
+  { src: "/feed.png", alt: "Community Feed" },
+  { src: "/compose.png", alt: "Share Your Experience" },
+  { src: "/profile.png", alt: "Your Profile" },
+  { src: "/journey.png", alt: "Journey Insights" },
+  { src: "/weekly-summary.png", alt: "Weekly Summary" },
+  { src: "/new-card.png", alt: "Track Medications" },
+  { src: "/card-detail.png", alt: "Card Details" },
+];
+
 export default function DownloadPage() {
   return (
     <>
@@ -115,49 +128,25 @@ export default function DownloadPage() {
         </section>
 
         {/* Screenshot Showcase */}
-        <section className="px-6 pb-16">
-          <div className="mx-auto max-w-6xl overflow-x-auto">
-            <div className="flex flex-row justify-center gap-6 md:flex-wrap">
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/welcome.png"
-                  alt="Welcome"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Welcome</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/interest.png"
-                  alt="Personalize Your Feed"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Personalize Your Feed</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/feed.png"
-                  alt="Community Feed"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Community Feed</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Image
-                  src="/compose.png"
-                  alt="Share Experiences"
-                  width={250}
-                  height={500}
-                  className="w-full max-w-[250px] rounded-2xl border border-gray-200 shadow-lg"
-                />
-                <p className="text-sm text-muted">Share Experiences</p>
-              </div>
+        <section className="pb-16">
+          <div className="mx-auto max-w-6xl px-6">
+            {/* Mobile: horizontal scroll. Desktop: wrapping grid. */}
+            <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:grid sm:snap-none sm:grid-cols-3 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+              {screenshots.map(({ src, alt }) => (
+                <div
+                  key={src}
+                  className="flex shrink-0 snap-center flex-col items-center gap-2 sm:shrink"
+                >
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={250}
+                    height={400}
+                    className="h-[400px] w-auto rounded-2xl border border-gray-200 object-cover shadow-lg"
+                  />
+                  <p className="text-sm text-muted">{alt}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
