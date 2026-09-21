@@ -11,8 +11,11 @@ const desktopLinks = [
   { href: "/privacy", label: "Privacy" },
 ];
 
+const webAppLink = { href: "https://app.medmoods.com", label: "Web App" };
+
 const mobileLinks = [
   ...desktopLinks,
+  webAppLink,
   { href: "/community-guidelines", label: "Community Guidelines" },
     { href: "/download", label: "Download" },
 ];
@@ -55,6 +58,9 @@ export default function NavBar() {
               {link.label}
             </Link>
           ))}
+          <a href={webAppLink.href} className="hover:text-primary transition-colors">
+            {webAppLink.label}
+          </a>
           <Link
             href="/download"
               className="rounded-full bg-primary px-4 py-1.5 font-medium text-white transition-colors hover:bg-primary-dark"
@@ -82,16 +88,27 @@ export default function NavBar() {
 
       {menuOpen && (
         <nav className="md:hidden border-t border-primary/10 bg-white px-6 py-4 flex flex-col gap-4 text-sm text-muted">
-          {mobileLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="hover:text-primary transition-colors"
-              onClick={() => setMenuOpen(false)}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {mobileLinks.map((link) =>
+            link.href.startsWith("http") ? (
+              <a
+                key={link.href}
+                href={link.href}
+                className="hover:text-primary transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="hover:text-primary transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
       )}
     </header>

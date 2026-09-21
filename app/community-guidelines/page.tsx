@@ -14,9 +14,9 @@ export default function CommunityGuidelinesPage() {
           <h1 className="text-3xl font-semibold text-ink">Community Guidelines</h1>
 
           <p className="mt-6 text-muted leading-relaxed">
-            MedMoods is a safe, anonymous community for sharing real
-            medication and supplement experiences. These guidelines help keep
-            our community supportive and trustworthy.
+            MedMoods is a medication experience tracking and sharing
+            platform. These guidelines help keep the experiences shared here
+            supportive and trustworthy.
           </p>
 
           <h2 className="mt-10 text-xl font-semibold text-ink">1. What MedMoods Is For</h2>

@@ -97,12 +97,42 @@ export default function DownloadPage() {
             </h1>
 
             <p className="mt-6 text-lg text-muted leading-relaxed">
-              MedMoods is a free, anonymous community for sharing real medication and
-              supplement experiences. Track your medications, log your mood, and
-              connect with others who understand.
+              MedMoods is a free, anonymous medication experience tracking and
+              sharing platform. Track your medications, log your mood, and
+              read real experiences from people who understand.
             </p>
+          </div>
+        </section>
 
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        {/* Web App */}
+        <section className="px-6 pb-16">
+          <div className="mx-auto max-w-2xl rounded-3xl bg-white p-10 text-center shadow-sm border border-primary/10">
+            <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight">
+              Use MedMoods on the Web
+            </h2>
+            <p className="mt-4 text-muted leading-relaxed">
+              Track your medications, share experiences, and access your data
+              from any browser — no download needed.
+            </p>
+            <div className="mt-8">
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+              <a
+                href="https://app.medmoods.com"
+                className="inline-block rounded-full bg-primary px-8 py-3 text-white font-medium hover:bg-primary-dark transition-colors"
+              >
+                Open Web App
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Mobile Apps */}
+        <section className="px-6 pb-16 text-center">
+          <div className="mx-auto max-w-2xl">
+            <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight">
+              Get the Mobile App
+            </h2>
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <button
                 type="button"
                 disabled
@@ -120,10 +150,6 @@ export default function DownloadPage() {
                 Coming Soon on Android
               </button>
             </div>
-
-            <p className="mt-6 text-sm text-muted">
-              Want to try MedMoods now? The web version is available at no cost.
-            </p>
           </div>
         </section>
 

@@ -6,12 +6,22 @@ const faqs = [
   {
     question: "What is MedMoods?",
     answer:
-      "MedMoods is a safe, anonymous community for sharing real medication and supplement experiences. You can read what others have experienced, share your own journey, and track your wellness — all without revealing your identity.",
+      "MedMoods is a medication experience tracking and sharing platform. You can log your own medication experiences privately, read real experiences other people have shared, and track your wellness — all without revealing your identity.",
+  },
+  {
+    question: "Can I use MedMoods without downloading the app?",
+    answer:
+      "Yes! MedMoods is available as a web app at app.medmoods.com. You can track medications, browse experiences, and access all features from any browser.",
   },
   {
     question: "Is my data private?",
     answer:
       "Yes. All posts are anonymous and no personal information is ever displayed. You can use MedMoods without creating an account. If you do create an account, it's only for syncing your data across devices — never for identification.",
+  },
+  {
+    question: "Is MedMoods really anonymous?",
+    answer:
+      "Yes. You can use MedMoods without an email, name, or any identifying information. All posts are anonymous by default. Creating an account is optional and only needed for features like care partner sharing.",
   },
   {
     question: "Do I need to create an account?",
@@ -25,7 +35,8 @@ const faqs = [
   },
   {
     question: "How much does MedMoods+ cost?",
-    answer: "MedMoods+ is available for $9.99/month or $39.99/year.",
+    answer:
+      "MedMoods+ is $9.99/month or $39.99/year (save 67%). You can use all core features for free — premium unlocks mood tracking, medication timelines, journal, PDF export, and care partner access.",
   },
   {
     question: "How do I report a post?",

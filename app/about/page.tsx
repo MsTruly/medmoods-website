@@ -15,11 +15,11 @@ export default function AboutPage() {
 
           <h2 className="mt-10 text-xl font-semibold text-ink">Our Mission</h2>
           <p className="mt-3 text-muted leading-relaxed">
-            MedMoods is a safe, anonymous community where people share real
-            experiences with medications and supplements. We believe that
-            honest, peer-to-peer stories help people feel less alone on their
-            wellness journey — whether they're starting a new medication,
-            managing side effects, or exploring natural alternatives.
+            MedMoods is a medication experience tracking and sharing
+            platform. We believe that honest, anonymous experiences help
+            people feel less alone — whether they're starting a new
+            medication, managing side effects, or exploring natural
+            alternatives.
           </p>
 
           <h2 className="mt-10 text-xl font-semibold text-ink">What We Offer</h2>
