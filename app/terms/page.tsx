@@ -23,6 +23,19 @@ export default function TermsPage() {
             Service, you agree to these Terms.
           </p>
 
+          <div className="mt-8 rounded-2xl border-2 border-primary/30 bg-mint/40 p-6">
+            <h2 className="text-xl font-semibold text-ink">HIPAA Disclaimer</h2>
+            <p className="mt-3 text-muted leading-relaxed">
+              MedMoods is not a HIPAA-covered entity and does not claim
+              HIPAA compliance. The information you enter is self-reported
+              wellness data, not a medical record. See our{" "}
+              <a href="/privacy" className="text-primary hover:underline">
+                Privacy Policy
+              </a>{" "}
+              for details.
+            </p>
+          </div>
+
           <h2 className="mt-10 text-xl font-semibold text-ink">1. Not Medical Advice</h2>
           <p className="mt-3 text-muted leading-relaxed">
             MedMoods is a personal tracking and journaling tool. It is not a
@@ -66,15 +79,36 @@ export default function TermsPage() {
             this access at any time within the app.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-ink">5. Data Handling</h2>
+          <h2 className="mt-10 text-xl font-semibold text-ink">5. Subscription &amp; Billing</h2>
           <p className="mt-3 text-muted leading-relaxed">
-            We store the information you provide using reputable third-party
-            infrastructure providers so that your data is available across
-            your devices. Please see our Privacy Policy for details about
-            what we collect and how it is used.
+            MedMoods+ subscriptions are billed through Stripe. Monthly plans
+            are $9.99/month. Annual plans are $39.99/year. You can cancel
+            your subscription at any time. Cancellation takes effect at the
+            end of your current billing period — you will retain premium
+            access until then. Refund requests can be made by contacting{" "}
+            <a href="mailto:care@medmoods.com" className="text-primary hover:underline">
+              care@medmoods.com
+            </a>{" "}
+            within 7 days of purchase.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-ink">6. Account Termination</h2>
+          <h2 className="mt-10 text-xl font-semibold text-ink">6. Data Handling</h2>
+          <p className="mt-3 text-muted leading-relaxed">
+            Your data is stored on Supabase (database and authentication),
+            processed through Stripe (payments), and optionally
+            authenticated via Google OAuth. Content moderation is performed
+            using OpenAI and Anthropic AI services — your post and comment
+            text is sent to these services for safety review before
+            publication. No personally identifying information is included
+            in moderation requests. For full details on how your data is
+            handled, see our{" "}
+            <a href="/privacy" className="text-primary hover:underline">
+              Privacy Policy
+            </a>
+            .
+          </p>
+
+          <h2 className="mt-10 text-xl font-semibold text-ink">7. Account Termination</h2>
           <p className="mt-3 text-muted leading-relaxed">
             You may stop using the Service or delete your account at any
             time. We may suspend or terminate access to the Service for
@@ -83,7 +117,7 @@ export default function TermsPage() {
             reasonably necessary.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-ink">7. Changes to These Terms</h2>
+          <h2 className="mt-10 text-xl font-semibold text-ink">8. Changes to These Terms</h2>
           <p className="mt-3 text-muted leading-relaxed">
             We may update these Terms from time to time. If we make material
             changes, we will update the effective date above. Continued use
@@ -91,7 +125,7 @@ export default function TermsPage() {
             of the revised Terms.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-ink">8. Contact Us</h2>
+          <h2 className="mt-10 text-xl font-semibold text-ink">9. Contact Us</h2>
           <p className="mt-3 text-muted leading-relaxed">
             If you have questions about these Terms, please contact us at{" "}
             <a href="mailto:care@medmoods.com" className="text-primary hover:underline">
