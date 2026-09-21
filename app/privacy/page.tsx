@@ -13,6 +13,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Privacy Policy</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 21, 2026</p>
 
           <p className="mt-6 text-muted leading-relaxed">
             This Privacy Policy explains how MedMoods ("we," "us," or "our")

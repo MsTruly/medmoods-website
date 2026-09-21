@@ -13,6 +13,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Terms of Service</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 21, 2026</p>
 
           <p className="mt-6 text-muted leading-relaxed">
             Welcome to MedMoods. These Terms of Service ("Terms") govern your
