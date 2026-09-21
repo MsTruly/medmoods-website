@@ -393,16 +393,28 @@ export default function FeaturesPage() {
                 Deeper tracking, richer insights, and tools to share with your
                 care team.
               </p>
-              <span className="mt-5 inline-block rounded-full bg-primary px-5 py-2 text-sm font-medium text-white">
+              <a
+                href="https://app.medmoods.com/paywall"
+                className="mt-5 inline-block rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
+              >
                 $9.99/month or $39.99/year
-              </span>
+              </a>
+              <div className="mt-5">
+                <a
+                  href="https://app.medmoods.com/paywall"
+                  className="inline-block rounded-full border-2 border-primary px-8 py-3 font-medium text-primary transition-colors hover:bg-primary hover:text-white"
+                >
+                  Try MedMoods+
+                </a>
+              </div>
             </div>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {premiumFeatures.map(({ title, description, Icon }) => (
-                <div
+                <a
                   key={title}
-                  className="rounded-2xl bg-mint/60 p-8 shadow-sm border-l-4 border-primary"
+                  href="https://app.medmoods.com/paywall"
+                  className="block rounded-2xl bg-mint/60 p-8 shadow-sm border-l-4 border-primary transition-shadow hover:shadow-md"
                 >
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-primary">
                     <Icon />
@@ -413,7 +425,7 @@ export default function FeaturesPage() {
                   <p className="mt-2 text-sm text-muted leading-relaxed">
                     {description}
                   </p>
-                </div>
+                </a>
               ))}
             </div>
           </div>
