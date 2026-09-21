@@ -393,12 +393,6 @@ export default function FeaturesPage() {
                 Deeper tracking, richer insights, and tools to share with your
                 care team.
               </p>
-              <a
-                href="https://app.medmoods.com/paywall"
-                className="mt-5 inline-block rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
-              >
-                $9.99/month or $39.99/year
-              </a>
               <div className="mt-5">
                 <a
                   href="https://app.medmoods.com/paywall"
