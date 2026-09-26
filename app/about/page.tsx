@@ -31,6 +31,7 @@ export default function AboutPage() {
             <li>Search the community by medication, supplement, or keyword</li>
             <li>React to and comment on posts</li>
             <li>Create personal medication experience cards</li>
+            <li>Add medications by scanning your pharmacy label or barcode, or by typing</li>
             <li>Track medications and view your med history</li>
             <li>Browse medications and see community insights</li>
           </ul>
@@ -45,7 +46,9 @@ export default function AboutPage() {
             <li>Medication change timeline</li>
             <li>Weekly wellness summary</li>
             <li>Saved posts</li>
-            <li>Daily check-in reminders</li>
+            <li>Dose, refill and daily check-in reminders by email or phone notification</li>
+            <li>Trends that compare how you felt before and after a dose change</li>
+            <li>Visit prep summaries for your appointments</li>
             <li>Invite a care partner to view your experience cards</li>
             <li>Export doctor-ready PDF summaries of your medication experiences</li>
             <li>Community insights and trends on your Journey screen</li>

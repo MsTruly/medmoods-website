@@ -36,7 +36,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Privacy Policy</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
-          <p className="mt-1 text-sm text-muted">Last updated: September 25, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 26, 2026</p>
 
           <P>
             This Privacy Policy explains how MedMoods (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)
@@ -53,6 +53,7 @@ export default function PrivacyPage() {
               <li>We <B>never sell</B> your data and we <B>never</B> use your health information for advertising.</li>
               <li>Your private entries (medications, doses, side effects, moods, journal, supplements) are visible only to you and to Care Partners you choose.</li>
               <li>Community posts are shown without your name or any identifier.</li>
+              <li>When you scan a medication label or barcode, the photo is read on your own device. It is never uploaded to us and never saved.</li>
               <li>You can download all of your data or permanently delete your account from the Profile page at any time.</li>
             </UL>
           </div>
@@ -78,11 +79,20 @@ export default function PrivacyPage() {
             <li><B>Settings:</B> reminder times, time zone, and notification preferences.</li>
             <li><B>Messages to us:</B> anything you send to <Mail />.</li>
           </UL>
+          <P><B>Medication label and barcode scans.</B></P>
+          <UL>
+            <li>On the Add medication page you can choose <B>Take a photo</B> or <B>Choose a photo</B> of a pharmacy label or medicine box instead of typing. Typing is always available.</li>
+            <li>The photo is read <B>on your device</B> by text-recognition and barcode-reading software that runs in your browser. The photo is <B>not uploaded</B> to MedMoods or anyone else, and it is <B>not stored</B>. It is discarded as soon as reading finishes.</li>
+            <li>What the scan finds (medication name, strength, how often, label directions, and an estimated refill date) is placed into the form for you to check. Nothing is saved until you tap <B>Save medication</B>, and it is then stored like anything else you type.</li>
+            <li>If a barcode or a printed National Drug Code (NDC) is found, only that product number is sent to the FDA&rsquo;s public drug database to look up the medication name and strength (Section 4). The number identifies a product, not you.</li>
+            <li>MedMoods only uses your camera when you tap <B>Take a photo</B>, and only through your phone&rsquo;s own camera screen. We never access your camera or photo library in the background.</li>
+          </UL>
           <P><B>Information collected automatically.</B></P>
           <UL>
             <li><B>Session cookies</B> that keep you signed in (see Section 7).</li>
             <li><B>Basic technical data</B> that our hosting providers log to run and secure the Service, such as IP address, browser type, and error logs.</li>
             <li><B>Push notification tokens</B>, only if you turn on app notifications. These are used to deliver your reminders.</li>
+            <li><B>Bot-protection signals</B> collected by Cloudflare Turnstile on the sign-in, sign-up, guest and password-reset pages, used only to confirm you&rsquo;re a person and not an automated attack.</li>
             <li><B>Aggregate page-traffic statistics</B> from Vercel Analytics, which does not use cookies or build individual profiles.</li>
           </UL>
           <P><B>Payment information.</B> Stripe collects card details directly. We receive only your subscription status and a Stripe customer reference, never your card number.</P>
@@ -120,7 +130,10 @@ export default function PrivacyPage() {
             <li><B>Brevo</B>: sends account emails (sign-up confirmation, password reset) and the reminder emails you turn on.</li>
             <li><B>Google</B>: optional &ldquo;Continue with Google&rdquo; sign-in. We receive only your email address.</li>
             <li><B>OpenAI and Anthropic</B>: automated moderation of text you post publicly (Section 5).</li>
-            <li><B>RxNorm (U.S. National Library of Medicine)</B>: medication name search. Only the search term is sent.</li>
+            <li><B>RxNorm (U.S. National Library of Medicine)</B>: medication name search when you type. Only the search term is sent.</li>
+            <li><B>openFDA (U.S. Food and Drug Administration)</B>: looks up a medication from the barcode or NDC number found in a scan. Only that product number is sent, never your photo.</li>
+            <li><B>jsDelivr</B>: a public content delivery network that supplies the label-reading software to your browser the first time you scan. Like any website, it receives basic technical data such as your IP address, but never your photo or what was read from it.</li>
+            <li><B>Cloudflare Turnstile</B>: a privacy-focused &ldquo;verify you&rsquo;re human&rdquo; check on sign-in and sign-up pages that protects accounts from automated attacks (<a href="https://www.cloudflare.com/privacypolicy/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">cloudflare.com/privacypolicy</a>).</li>
             <li><B>Your browser&rsquo;s push service</B> (for example Apple, Google or Mozilla): delivers push notifications if you turn them on. The notification contains only a short reminder message.</li>
           </UL>
 

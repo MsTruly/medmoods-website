@@ -202,6 +202,18 @@ const freeFeatures: Feature[] = [
     Icon: CardIcon,
   },
   {
+    title: "Scan Your Label",
+    description:
+      "Add a medication by taking a photo of your pharmacy label or the barcode on the box, or just type it in. The photo is read on your phone and never uploaded.",
+    Icon: CardIcon,
+  },
+  {
+    title: "Works Like an App",
+    description:
+      "Add MedMoods to your Home Screen on iPhone or Android and open it like any other app. No app store needed.",
+    Icon: StarIcon,
+  },
+  {
     title: "Community Search",
     description: "Find posts by medication name, supplement, or keyword.",
     Icon: SearchIcon,
@@ -235,7 +247,7 @@ const premiumFeatures: Feature[] = [
   {
     title: "Mood & Symptoms Tracker",
     description:
-      "Log your mood, anxiety, energy, and sleep daily. See your week at a glance with trends and streaks.",
+      "Log your mood, anxiety, energy, and sleep daily, and tag symptoms like headache or nausea. See your week at a glance with trends and streaks.",
     Icon: TrendIcon,
   },
   {
@@ -257,6 +269,18 @@ const premiumFeatures: Feature[] = [
     Icon: ClockIcon,
   },
   {
+    title: "Trends",
+    description:
+      "Charts of your mood, anxiety, energy, and sleep, with your dose changes marked, and a before-and-after comparison you can show your doctor.",
+    Icon: TrendIcon,
+  },
+  {
+    title: "Visit Prep",
+    description:
+      "A ready-to-share summary of how you've been doing to bring to your next appointment.",
+    Icon: FileIcon,
+  },
+  {
     title: "Weekly Summary",
     description:
       "A weekly review of your mood trends, symptoms logged, and community activity around your medications. No AI — just your own data, clearly presented.",
@@ -268,9 +292,9 @@ const premiumFeatures: Feature[] = [
     Icon: StarIcon,
   },
   {
-    title: "Daily Reminders",
+    title: "Dose, Refill & Check-in Reminders",
     description:
-      "Set a daily notification to remind you to log your mood and supplements.",
+      "Get reminders for each dose, before your prescription runs out, and to log your mood, by email or phone notification. Reminders never show your medication name.",
     Icon: BellIcon,
   },
   {
