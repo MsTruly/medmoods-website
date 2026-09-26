@@ -102,8 +102,7 @@ export default function TermsPage() {
           </UL>
           <P>
             We may review, hold, edit for safety, or remove content, including through automated tools, and may
-            limit accounts that break these rules. Some example posts are provided by MedMoods to show how the
-            community works. They are labeled as examples.
+            limit accounts that break these rules.
           </P>
 
           <H2>6. Care Partners</H2>
