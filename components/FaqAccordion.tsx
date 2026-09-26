@@ -31,12 +31,12 @@ const faqs = [
   {
     question: "What is MedMoods+?",
     answer:
-      "MedMoods+ is our premium tier that unlocks deeper personal tracking tools: mood and symptom daily tracking, dose and refill reminders (by email or phone notification), trends that compare before and after a dose change, supplement logging, a private journal, medication change timelines, weekly wellness summaries, visit prep, saved posts, care partner invites, and PDF exports for your doctor.",
+      "MedMoods+ is our premium tier that unlocks deeper personal tracking tools: the full mood and symptom tracker (the one-tap daily mood check-in is free), dose and refill reminders (by email or phone notification), trends that compare before and after a dose change, supplement logging, a private journal, medication change timelines, weekly wellness summaries, visit prep, saved posts, care partner invites, and PDF exports for your doctor.",
   },
   {
     question: "How much does MedMoods+ cost?",
     answer:
-      "MedMoods+ is $9.99/month or $39.99/year (save 67%). You can use all core features for free — premium unlocks mood tracking, dose and refill reminders, trends, medication timelines, journal, PDF export, and care partner access.",
+      "MedMoods+ is $9.99/month or $39.99/year (save 67%). You can use all core features for free, including the daily mood check-in — premium unlocks the full mood tracker, dose and refill reminders, trends, medication timelines, journal, PDF export, and care partner access.",
   },
   {
     question: "How do I report a post?",

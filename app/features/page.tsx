@@ -241,13 +241,19 @@ const freeFeatures: Feature[] = [
       "View all your tracked medications in one place with dose changes and side effects.",
     Icon: ClockIcon,
   },
+  {
+    title: "Daily Mood Check-in",
+    description:
+      "One tap a day to log how you're feeling, with optional symptom tags. Free for everyone.",
+    Icon: HeartIcon,
+  },
 ];
 
 const premiumFeatures: Feature[] = [
   {
     title: "Mood & Symptoms Tracker",
     description:
-      "Log your mood, anxiety, energy, and sleep daily, and tag symptoms like headache or nausea. See your week at a glance with trends and streaks.",
+      "Go beyond the free daily check-in: log anxiety, energy, sleep and notes, tag symptoms like headache or nausea, and see your week at a glance with trends and streaks.",
     Icon: TrendIcon,
   },
   {

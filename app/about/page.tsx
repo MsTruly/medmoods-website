@@ -34,13 +34,14 @@ export default function AboutPage() {
             <li>Add medications by scanning your pharmacy label or barcode, or by typing</li>
             <li>Track medications and view your med history</li>
             <li>Browse medications and see community insights</li>
+            <li>Daily mood check-in</li>
           </ul>
 
           <h3 className="mt-6 text-base font-semibold text-ink">
             MedMoods+ premium features
           </h3>
           <ul className="mt-3 space-y-2 text-muted leading-relaxed list-disc pl-5 marker:text-primary">
-            <li>Mood & Symptoms daily tracker</li>
+            <li>Full Mood & Symptoms tracker (anxiety, energy, sleep, notes)</li>
             <li>Supplement logging</li>
             <li>Private wellness journal</li>
             <li>Medication change timeline</li>
