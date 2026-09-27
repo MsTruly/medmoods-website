@@ -115,7 +115,7 @@ export default function TermsPage() {
           <H2>7. MedMoods+ Subscriptions</H2>
           <UL>
             <li><B>Price:</B> $7.99 per month or $49.99 per year, plus any applicable taxes. Prices shown at checkout apply.</li>
-            <li><B>Free trial:</B> new subscribers get a 7-day free trial. You add a payment method when you start the trial, and you are charged when the trial ends unless you cancel before then. One trial per person.</li>
+            <li><B>Free trial:</B> accounts that have never had MedMoods+ can start one 7-day free trial per account. You add a payment method when you start the trial, and you are charged the plan price when the trial ends unless you cancel before then. Accounts that are not eligible for a trial are charged when they subscribe, and checkout shows which applies before you pay.</li>
             <li><B>Automatic renewal:</B> subscriptions renew automatically at the end of each billing period and your payment method is charged until you cancel.</li>
             <li><B>Cancel anytime:</B> in the app under Profile &rarr; Manage subscription. Cancellation takes effect at the end of the current billing period, and you keep MedMoods+ until then.</li>
             <li><B>Refunds:</B> you may request a refund within 7 days of purchase by emailing <Mail />. Other refunds are at our discretion unless the law requires them.</li>
