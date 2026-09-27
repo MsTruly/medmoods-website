@@ -35,7 +35,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Terms of Service</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
-          <p className="mt-1 text-sm text-muted">Last updated: September 25, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 27, 2026</p>
 
           <P>
             These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the MedMoods app and website (together, the
@@ -114,7 +114,8 @@ export default function TermsPage() {
 
           <H2>7. MedMoods+ Subscriptions</H2>
           <UL>
-            <li><B>Price:</B> $9.99 per month or $39.99 per year, plus any applicable taxes. Prices shown at checkout apply.</li>
+            <li><B>Price:</B> $7.99 per month or $49.99 per year, plus any applicable taxes. Prices shown at checkout apply.</li>
+            <li><B>Free trial:</B> new subscribers get a 7-day free trial. You add a payment method when you start the trial, and you are charged when the trial ends unless you cancel before then. One trial per person.</li>
             <li><B>Automatic renewal:</B> subscriptions renew automatically at the end of each billing period and your payment method is charged until you cancel.</li>
             <li><B>Cancel anytime:</B> in the app under Profile &rarr; Manage subscription. Cancellation takes effect at the end of the current billing period, and you keep MedMoods+ until then.</li>
             <li><B>Refunds:</B> you may request a refund within 7 days of purchase by emailing <Mail />. Other refunds are at our discretion unless the law requires them.</li>
