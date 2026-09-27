@@ -32,7 +32,7 @@ export default function AboutPage() {
             <li>React to and comment on posts</li>
             <li>Create personal medication experience cards</li>
             <li>Add medications by scanning your pharmacy label or barcode, or by typing</li>
-            <li>Track medications and view your med history</li>
+            <li>Track your medications</li>
             <li>Browse medications and see community insights</li>
             <li>Daily mood check-in</li>
           </ul>
@@ -44,6 +44,7 @@ export default function AboutPage() {
             <li>Full Mood & Symptoms tracker (anxiety, energy, sleep, notes)</li>
             <li>Supplement logging</li>
             <li>Private wellness journal</li>
+            <li>Med history: all your tracked medications with dose changes and side effects</li>
             <li>Medication change timeline</li>
             <li>Weekly wellness summary</li>
             <li>Saved posts</li>

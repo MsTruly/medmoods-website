@@ -236,12 +236,6 @@ const freeFeatures: Feature[] = [
     Icon: StarIcon,
   },
   {
-    title: "Med History",
-    description:
-      "View all your tracked medications in one place with dose changes and side effects.",
-    Icon: ClockIcon,
-  },
-  {
     title: "Daily Mood Check-in",
     description:
       "One tap a day to log how you're feeling, with optional symptom tags. Free for everyone.",
@@ -250,6 +244,12 @@ const freeFeatures: Feature[] = [
 ];
 
 const premiumFeatures: Feature[] = [
+  {
+    title: "Med History",
+    description:
+      "View all your tracked medications in one place with dose changes and side effects.",
+    Icon: ClockIcon,
+  },
   {
     title: "Mood & Symptoms Tracker",
     description:
