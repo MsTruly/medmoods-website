@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "How much does MedMoods+ cost?",
     answer:
-      "MedMoods+ is $7.99/month or $49.99/year (save 48%), and accounts that haven’t had MedMoods+ before get a 7-day free trial (one per account). You can use all core features for free, including the daily mood check-in — premium unlocks the full mood tracker, dose and refill reminders, trends, medication timelines, journal, PDF export, and care partner access.",
+      "MedMoods+ is $7.99/month or $49.99/year (save 48%), and accounts that haven’t had MedMoods+ before get a 7-day free trial (one per account, no payment details needed to start). You can use all core features for free, including the daily mood check-in — premium unlocks the full mood tracker, dose and refill reminders, trends, medication timelines, journal, PDF export, and care partner access.",
   },
   {
     question: "How do I report a post?",

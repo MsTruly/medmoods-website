@@ -35,7 +35,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Terms of Service</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
-          <p className="mt-1 text-sm text-muted">Last updated: September 27, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 28, 2026</p>
 
           <P>
             These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the MedMoods app and website (together, the
@@ -77,9 +77,13 @@ export default function TermsPage() {
 
           <H2>3. HIPAA</H2>
           <P>
-            MedMoods is not a HIPAA-covered entity and does not claim HIPAA compliance. What you enter is
-            self-reported wellness information, not a medical record. Our{" "}
-            <a href="/privacy" className="text-primary hover:underline">Privacy Policy</a> explains how we protect it.
+            MedMoods is a consumer app that you choose to use for yourself. We do not provide care, and we do
+            not collect or handle your information on behalf of a doctor, hospital, health plan, or other
+            healthcare provider, so HIPAA does not generally apply to MedMoods and we do not claim HIPAA
+            compliance. The medications, symptoms, and moods you record are still sensitive health information,
+            and we treat them that way. Other health-privacy laws may apply, and our{" "}
+            <a href="/privacy" className="text-primary hover:underline">Privacy Policy</a> explains how we protect
+            your information.
           </P>
 
           <H2>4. Your Content</H2>
@@ -115,7 +119,7 @@ export default function TermsPage() {
           <H2>7. MedMoods+ Subscriptions</H2>
           <UL>
             <li><B>Price:</B> $7.99 per month or $49.99 per year, plus any applicable taxes. Prices shown at checkout apply.</li>
-            <li><B>Free trial:</B> accounts that have never had MedMoods+ can start one 7-day free trial per account. You add a payment method when you start the trial, and you are charged the plan price when the trial ends unless you cancel before then. Accounts that are not eligible for a trial are charged when they subscribe, and checkout shows which applies before you pay.</li>
+            <li><B>Free trial:</B> accounts that have never had MedMoods+ can start one 7-day free trial per account. A payment method is optional when you start the trial. To keep MedMoods+ after the trial, add a payment method before it ends; your subscription then starts and you are charged the plan price when the trial ends unless you cancel before then. If there is no payment method on file when the trial ends, your subscription is cancelled and you are not charged. Accounts that are not eligible for a trial are charged when they subscribe, and checkout shows which applies before you pay.</li>
             <li><B>Automatic renewal:</B> subscriptions renew automatically at the end of each billing period and your payment method is charged until you cancel.</li>
             <li><B>Cancel anytime:</B> in the app under Profile &rarr; Manage subscription. Cancellation takes effect at the end of the current billing period, and you keep MedMoods+ until then.</li>
             <li><B>Refunds:</B> you may request a refund within 7 days of purchase by emailing <Mail />. Other refunds are at our discretion unless the law requires them.</li>

@@ -36,7 +36,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-semibold text-ink">Privacy Policy</h1>
           <p className="mt-2 text-sm text-muted">Effective date: August 3, 2026</p>
-          <p className="mt-1 text-sm text-muted">Last updated: September 26, 2026</p>
+          <p className="mt-1 text-sm text-muted">Last updated: September 28, 2026</p>
 
           <P>
             This Privacy Policy explains how MedMoods (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)
@@ -61,11 +61,13 @@ export default function PrivacyPage() {
           <div className="mt-6 rounded-2xl border-2 border-primary/30 bg-mint/40 p-6">
             <h2 className="text-xl font-semibold text-ink">HIPAA</h2>
             <P>
-              MedMoods is not a healthcare provider, health plan, or healthcare clearinghouse, and is not a
-              HIPAA-covered entity. The information you enter is self-reported wellness information, not a medical
-              record, and MedMoods does not claim HIPAA compliance. Other health-privacy laws, such as the FTC
-              Health Breach Notification Rule and state consumer-health-data laws, may still apply, and we follow
-              this policy regardless. Section 10 explains how we handle consumer health data.
+              MedMoods is a consumer app that you choose to use for yourself. We are not a healthcare provider,
+              health plan, or healthcare clearinghouse, and we do not collect or handle your information on behalf
+              of one, so HIPAA does not generally apply to MedMoods and we do not claim HIPAA compliance. The
+              medications, symptoms, and moods you record are still sensitive health information, and we protect
+              them as such. Other health-privacy laws, such as the FTC Health Breach Notification Rule and state
+              consumer-health-data laws, may apply, and we follow this policy regardless. Section 10 explains how
+              we handle consumer health data.
             </P>
           </div>
 
