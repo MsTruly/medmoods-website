@@ -1,3 +1,4 @@
+import type React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
@@ -185,7 +186,7 @@ function CompassIcon({ className = "" }: { className?: string }) {
 type Feature = {
   title: string;
   description: string;
-  Icon: (props: { className?: string }) => JSX.Element;
+  Icon: (props: { className?: string }) => React.JSX.Element;
 };
 
 const freeFeatures: Feature[] = [
