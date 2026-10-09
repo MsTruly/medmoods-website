@@ -2,7 +2,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "About — MedMoods Tracker",
+  title: "About — MedMoods",
 };
 
 export default function AboutPage() {
@@ -11,7 +11,7 @@ export default function AboutPage() {
       <NavBar />
       <main className="px-6 py-16">
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-3xl font-semibold text-ink">About MedMoods Tracker</h1>
+          <h1 className="text-3xl font-semibold text-ink">About MedMoods</h1>
 
           <h2 className="mt-10 text-xl font-semibold text-ink">Our Mission</h2>
           <p className="mt-3 text-muted leading-relaxed">
