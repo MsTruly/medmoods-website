@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MedMoods Tracker">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E6C70"/>
+      <stop offset=".55" stop-color="#16A39E"/>
+      <stop offset="1" stop-color="#6EE7C8"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="156" y1="210" x2="348" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20B79E"/>
+      <stop offset=".58" stop-color="#18A6A5"/>
+      <stop offset="1" stop-color="#FF8B67"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="284" y1="330" x2="410" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FFFD"/>
+      <stop offset=".5" stop-color="#ECFFFA"/>
+      <stop offset=".51" stop-color="#63E2C5"/>
+      <stop offset="1" stop-color="#22B6A4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#06474B" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="url(#bg)"/>
+  <path d="M20 360c112-62 186-38 268 10 70 41 126 48 204-2v124H20Z" fill="#074D57" opacity=".55"/>
+  <g filter="url(#shadow)">
+    <path d="M128 122h220c30 0 54 24 54 54v176c0 17-14 31-31 31H151c-42 0-76-34-76-76V175c0-29 24-53 53-53Z" fill="#79E8CF" opacity=".7"/>
+    <rect x="108" y="96" width="284" height="274" rx="54" fill="#F8FFFD"/>
+    <path d="M150 213c27-46 56-46 83 0 28 48 58 47 85-7 26-51 51-49 73-2" fill="none" stroke="url(#wave)" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="150" cy="213" r="10" fill="#20B79E"/>
+    <circle cx="391" cy="204" r="12" fill="#FF8B67"/>
+    <rect x="154" y="284" width="126" height="16" rx="8" fill="#B6EEE1"/>
+    <rect x="154" y="318" width="98" height="16" rx="8" fill="#B6EEE1"/>
+  </g>
+  <g transform="rotate(-45 351 361)" filter="url(#shadow)">
+    <rect x="296" y="306" width="110" height="148" rx="55" fill="url(#pill)"/>
+    <line x1="296" y1="380" x2="406" y2="380" stroke="#0F7777" stroke-width="8" opacity=".65"/>
+  </g>
+</svg>

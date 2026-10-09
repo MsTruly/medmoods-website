@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MedMoods — Track your medication experiences",
+  title: "MedMoods Tracker — Medication, Mood & Wellness Tracking",
   description:
-    "Track your medication experiences. Share what matters. Stay in control.",
+    "Track medications, moods, reminders, and journals. Share what matters. Stay in control.",
+  icons: {
+    icon: "/brand-icon.svg",
+    shortcut: "/brand-icon.svg",
+    apple: "/brand-icon.svg",
+  },
 };
 
 export default function RootLayout({
