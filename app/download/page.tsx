@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Download MedMoods",
+  title: "Download MedMoods Tracker",
 };
 
 function ShieldIcon() {
@@ -85,8 +85,8 @@ export default function DownloadPage() {
           <div className="mx-auto max-w-2xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
-              alt="MedMoods app icon"
+              src="/brand-icon.svg"
+              alt="MedMoods Tracker app icon"
               width={112}
               height={112}
               className="mx-auto h-28 w-28 rounded-3xl shadow-md sm:h-32 sm:w-32"
