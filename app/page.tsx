@@ -64,7 +64,7 @@ export default function Home() {
         <section className="relative overflow-hidden px-6 pt-20 pb-24 text-center">
           <div className="mx-auto max-w-2xl">
             <h1 className="text-5xl sm:text-6xl font-bold text-primary-dark tracking-tight">
-              MedMoods Tracker
+              MedMoods
             </h1>
             <p className="mt-6 text-lg text-muted">
                           Real Experiences. Real People.
@@ -83,7 +83,7 @@ export default function Home() {
         <section className="px-6 pb-24">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold text-ink tracking-tight">
-              See MedMoods Tracker in Action
+              See MedMoods in Action
             </h2>
             <div className="mt-10 flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4 md:flex-wrap md:justify-center md:overflow-visible md:pb-0">
               <div className="flex shrink-0 snap-center flex-col items-center gap-2">

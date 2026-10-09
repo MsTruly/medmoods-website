@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MedMoods Tracker — Medication, Mood & Wellness Tracking",
+  title: "MedMoods — Medication Experiences, Wellness & Support",
   description:
-    "Track medications, moods, reminders, and journals. Share what matters. Stay in control.",
+    "Track medications, experiences, reminders, and wellness. Share what matters. Stay in control.",
   icons: {
     icon: "/brand-icon.svg",
     shortcut: "/brand-icon.svg",

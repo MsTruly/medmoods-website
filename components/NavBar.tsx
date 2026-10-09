@@ -45,7 +45,7 @@ export default function NavBar() {
       <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Logo size={28} />
-          <span className="font-semibold text-ink text-lg">MedMoods Tracker</span>
+          <span className="font-semibold text-ink text-lg">MedMoods</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm text-muted">
